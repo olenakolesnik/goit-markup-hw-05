@@ -567,7 +567,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-color: #4d5ae5;
 }
 .modal-input:focus + .form-icon{
-    stroke: #4d5ae5;
+    fill: #4d5ae5;
 }
 .modal-input-label {
 display: block;
