@@ -601,10 +601,10 @@ margin-bottom: 4px;
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.modal-icon:hover {
+.modal-close:hover .modal-icon {
 fill: #ffffff;
 }
-.modal-icon:focus {
+.modal-close:focus .modal-icon {
 fill: #ffffff;
 }
 .modal-field {
@@ -612,6 +612,7 @@ fill: #ffffff;
 }
 .input-wrapper {
     position: relative;
+    margin-bottom: 16px;
 }
 
 .form-icon {
@@ -659,19 +660,38 @@ fill: #ffffff;
         }
         
         .form-title {
+            margin-bottom: 16px;
+            font-size: 16px;
                 font-weight: 500;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
-                color: #fff; 
+                color: #ffffff; 
+        }
+        .form-subscribe {
+            display: flex;
+            gap: 24px;
         }
        .btn-subscribe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
         border-radius: 4px;
             padding: 8px 24px;
-            width: 165px;
+            min-width: 165px;
             height: 40px;
             background-color: #4D5AE5;
             border: none;
-            color: #fff;
+            color: #ffffff;
+            cursor: pointer;
+       }
+       .btn-icon {
+        margin-left: 16px;
+        fill: #fff;
        }
        .form-container {
         display: flex;
@@ -682,12 +702,21 @@ fill: #ffffff;
             
        }
        .input-subscribe {
-        border: 1px solid #fff;
+        border: 1px solid #ffffff;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
             width: 264px;
             height: 40px;
             background-color: transparent;
             padding: 8px 16px;
+            color: #ffffff;
+       }
+       .input::placeholder {
+color: #ffffff;
        }
        .modal-checkbox {
         margin-bottom: 24px;
