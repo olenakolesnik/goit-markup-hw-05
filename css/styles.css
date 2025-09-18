@@ -616,7 +616,6 @@ fill: #ffffff;
 }
 .input-wrapper {
     position: relative;
-    margin-bottom: 16px;
 }
 
 .form-icon {
@@ -698,7 +697,6 @@ fill: #ffffff;
         fill: #fff;
        }
        .form-container {
-        display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: row;
